@@ -1,0 +1,34 @@
+Round Trip: OSD to Go
+
+* Ceph and OSD
+- client and cluster
+- crush
+- MON
+- PG 
+- pool
+- OSD
+
+* Tools: Build, log, and profiling, trace
+- Build for debug
+- vstart
+- realgud
+- attach
+- set breakpoint and continue: OSD::ms_fast_dispatch
+- ./bin/rados -p test get first_object ./compile_commmands.json.get
+- log
+sudo tail -F out/osd.0.log | grep -vE "scrub|do_waiters|recalibrate|tick|heartbeat|blue|update_osd_stat|mgrc|192.168|backfill|monclient" > osd.log
+glogg osd.log
+./bin/ceph daemon osd.0 config show | grep "log_file"
+./bin/ceph tell osd.0 injectargs --debug-osd 50/50
+- trace: lttng; osd tracing = true
+- wireshark: ceph network packets
+
+* Practise: build a Ceph cluster from source
+* UML: class diagram, sequence disgram
+* OSD architecture
+- enqueue operation item
+- ShardedOpWQ._process
+* Dive into OSD: modules internals
+* Go and Goroution Patterns
+* OSD design in Go
+* Test and Profiling

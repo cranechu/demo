@@ -1,0 +1,470 @@
+
+./libcls_hello.so:     file format elf64-x86-64
+
+SYMBOL TABLE:
+00000000000001c8 l    d  .note.gnu.build-id	0000000000000000              .note.gnu.build-id
+00000000000001f0 l    d  .gnu.hash	0000000000000000              .gnu.hash
+0000000000000758 l    d  .dynsym	0000000000000000              .dynsym
+0000000000001d90 l    d  .dynstr	0000000000000000              .dynstr
+0000000000004978 l    d  .gnu.version	0000000000000000              .gnu.version
+0000000000004b58 l    d  .gnu.version_r	0000000000000000              .gnu.version_r
+0000000000004c08 l    d  .rela.dyn	0000000000000000              .rela.dyn
+0000000000004e78 l    d  .rela.plt	0000000000000000              .rela.plt
+0000000000005ec8 l    d  .init	0000000000000000              .init
+0000000000005ee0 l    d  .plt	0000000000000000              .plt
+00000000000069d0 l    d  .plt.got	0000000000000000              .plt.got
+00000000000069e0 l    d  .text	0000000000000000              .text
+0000000000009280 l    d  .fini	0000000000000000              .fini
+0000000000009290 l    d  .rodata	0000000000000000              .rodata
+00000000000098e4 l    d  .eh_frame_hdr	0000000000000000              .eh_frame_hdr
+0000000000009d70 l    d  .eh_frame	0000000000000000              .eh_frame
+000000000000b03c l    d  .gcc_except_table	0000000000000000              .gcc_except_table
+000000000020bd40 l    d  .init_array	0000000000000000              .init_array
+000000000020bd50 l    d  .fini_array	0000000000000000              .fini_array
+000000000020bd58 l    d  .data.rel.ro	0000000000000000              .data.rel.ro
+000000000020bdb8 l    d  .dynamic	0000000000000000              .dynamic
+000000000020bfb8 l    d  .got	0000000000000000              .got
+000000000020c000 l    d  .got.plt	0000000000000000              .got.plt
+000000000020c588 l    d  .data	0000000000000000              .data
+000000000020c5b0 l    d  .bss	0000000000000000              .bss
+0000000000000000 l    d  .comment	0000000000000000              .comment
+0000000000000000 l    d  .debug_aranges	0000000000000000              .debug_aranges
+0000000000000000 l    d  .debug_info	0000000000000000              .debug_info
+0000000000000000 l    d  .debug_abbrev	0000000000000000              .debug_abbrev
+0000000000000000 l    d  .debug_line	0000000000000000              .debug_line
+0000000000000000 l    d  .debug_str	0000000000000000              .debug_str
+0000000000000000 l    d  .debug_ranges	0000000000000000              .debug_ranges
+0000000000000000 l    d  .debug_macro	0000000000000000              .debug_macro
+0000000000000000 l    df *ABS*	0000000000000000              crtstuff.c
+00000000000069e0 l     F .text	0000000000000000              deregister_tm_clones
+0000000000006a20 l     F .text	0000000000000000              register_tm_clones
+0000000000006a70 l     F .text	0000000000000000              __do_global_dtors_aux
+000000000020c5b0 l     O .bss	0000000000000001              completed.6984
+000000000020bd50 l     O .fini_array	0000000000000000              __do_global_dtors_aux_fini_array_entry
+0000000000006ab0 l     F .text	0000000000000000              frame_dummy
+000000000020bd40 l     O .init_array	0000000000000000              __frame_dummy_init_array_entry
+0000000000000000 l    df *ABS*	0000000000000000              cls_hello.cc
+000000000020c5c4 l     O .bss	0000000000000001              _ZN5boostL4noneE
+000000000020c5c5 l     O .bss	0000000000000001              _ZN5boost11optional_nsL13in_place_initE
+000000000020c5c6 l     O .bss	0000000000000001              _ZN5boost11optional_nsL16in_place_init_ifE
+000000000020c5c7 l     O .bss	0000000000000001              _ZStL8__ioinit
+0000000000009290 l     O .rodata	0000000000000004              _ZN9__gnu_cxxL21__default_lock_policyE
+0000000000009294 l     O .rodata	0000000000000001              _ZN4cephL14acquire_uniqueE
+0000000000009295 l     O .rodata	0000000000000001              _ZN4cephL14acquire_sharedE
+0000000000009298 l     O .rodata	0000000000000008              _ZN5boost9containerL19ADP_nodes_per_blockE
+00000000000092a0 l     O .rodata	0000000000000008              _ZN5boost9containerL19ADP_max_free_blocksE
+00000000000092a8 l     O .rodata	0000000000000008              _ZN5boost9containerL20ADP_overhead_percentE
+00000000000092b0 l     O .rodata	0000000000000008              _ZN5boost9containerL18ADP_only_alignmentE
+00000000000092b8 l     O .rodata	0000000000000008              _ZN5boost9containerL25NodeAlloc_nodes_per_blockE
+00000000000092c0 l     O .rodata	0000000000000001              _ZN5boost9containerL13ordered_rangeE
+00000000000092c1 l     O .rodata	0000000000000001              _ZN5boost9containerL20ordered_unique_rangeE
+00000000000092c2 l     O .rodata	0000000000000001              _ZN5boost9containerL12default_initE
+00000000000092c3 l     O .rodata	0000000000000001              _ZN5boost9containerL10value_initE
+000000000020c5c8 l     O .bss	0000000000000008              _ZN5boost9containerL19piecewise_constructE
+00000000000092c8 l     O .rodata	0000000000000008              _ZN5boost9containerL24DeepSwapAllocNMaxStorageE
+00000000000092d0 l     O .rodata	0000000000000004              _ZN5boost9containerL12allocate_newE
+00000000000092d4 l     O .rodata	0000000000000004              _ZN5boost9containerL10expand_fwdE
+00000000000092d8 l     O .rodata	0000000000000004              _ZN5boost9containerL10expand_bwdE
+00000000000092dc l     O .rodata	0000000000000004              _ZN5boost9containerL15shrink_in_placeE
+00000000000092e0 l     O .rodata	0000000000000004              _ZN5boost9containerL19try_shrink_in_placeE
+00000000000092e4 l     O .rodata	0000000000000004              _ZN5boost9containerL18nothrow_allocationE
+00000000000092e8 l     O .rodata	0000000000000004              _ZN5boost9containerL11zero_memoryE
+00000000000092ec l     O .rodata	0000000000000004              _ZN5boost7movelibL31MergeSortInsertionSortThresholdE
+00000000000092f0 l     O .rodata	0000000000000008              _ZN5boost7movelib15detail_adaptiveL34AdaptiveSortInsertionSortThresholdE
+00000000000092f8 l     O .rodata	0000000000000001              _ZN5boost9container16container_detailL18uninitialized_sizeE
+00000000000092fc l     O .rodata	0000000000000004              _ZN5boost6detail16static_log2_implL6n_zeroE
+0000000000009300 l     O .rodata	0000000000000004              _ZN5boost6detail16static_log2_implL9initial_nE
+0000000000009308 l     O .rodata	0000000000000008              _ZL16CEPH_FEATURE_UID
+0000000000009310 l     O .rodata	0000000000000008              _ZL20CEPH_FEATUREMASK_UID
+0000000000009318 l     O .rodata	0000000000000008              _ZL22CEPH_FEATURE_NOSRCADDR
+0000000000009320 l     O .rodata	0000000000000008              _ZL26CEPH_FEATUREMASK_NOSRCADDR
+0000000000009328 l     O .rodata	0000000000000008              _ZL28CEPH_FEATURE_SERVER_NAUTILUS
+0000000000009330 l     O .rodata	0000000000000008              _ZL32CEPH_FEATUREMASK_SERVER_NAUTILUS
+0000000000009338 l     O .rodata	0000000000000008              _ZL18CEPH_FEATURE_FLOCK
+0000000000009340 l     O .rodata	0000000000000008              _ZL22CEPH_FEATUREMASK_FLOCK
+0000000000009348 l     O .rodata	0000000000000008              _ZL23CEPH_FEATURE_SUBSCRIBE2
+0000000000009350 l     O .rodata	0000000000000008              _ZL27CEPH_FEATUREMASK_SUBSCRIBE2
+0000000000009358 l     O .rodata	0000000000000008              _ZL21CEPH_FEATURE_MONNAMES
+0000000000009360 l     O .rodata	0000000000000008              _ZL25CEPH_FEATUREMASK_MONNAMES
+0000000000009368 l     O .rodata	0000000000000008              _ZL26CEPH_FEATURE_RECONNECT_SEQ
+0000000000009370 l     O .rodata	0000000000000008              _ZL30CEPH_FEATUREMASK_RECONNECT_SEQ
+0000000000009378 l     O .rodata	0000000000000008              _ZL26CEPH_FEATURE_DIRLAYOUTHASH
+0000000000009380 l     O .rodata	0000000000000008              _ZL30CEPH_FEATUREMASK_DIRLAYOUTHASH
+0000000000009388 l     O .rodata	0000000000000008              _ZL26CEPH_FEATURE_OBJECTLOCATOR
+0000000000009390 l     O .rodata	0000000000000008              _ZL30CEPH_FEATUREMASK_OBJECTLOCATOR
+0000000000009398 l     O .rodata	0000000000000008              _ZL19CEPH_FEATURE_PGID64
+00000000000093a0 l     O .rodata	0000000000000008              _ZL23CEPH_FEATUREMASK_PGID64
+00000000000093a8 l     O .rodata	0000000000000008              _ZL25CEPH_FEATURE_INCSUBOSDMAP
+00000000000093b0 l     O .rodata	0000000000000008              _ZL29CEPH_FEATUREMASK_INCSUBOSDMAP
+00000000000093b8 l     O .rodata	0000000000000008              _ZL20CEPH_FEATURE_PGPOOL3
+00000000000093c0 l     O .rodata	0000000000000008              _ZL24CEPH_FEATUREMASK_PGPOOL3
+00000000000093c8 l     O .rodata	0000000000000008              _ZL24CEPH_FEATURE_OSDREPLYMUX
+00000000000093d0 l     O .rodata	0000000000000008              _ZL28CEPH_FEATUREMASK_OSDREPLYMUX
+00000000000093d8 l     O .rodata	0000000000000008              _ZL19CEPH_FEATURE_OSDENC
+00000000000093e0 l     O .rodata	0000000000000008              _ZL23CEPH_FEATUREMASK_OSDENC
+00000000000093e8 l     O .rodata	0000000000000008              _ZL26CEPH_FEATURE_SERVER_KRAKEN
+00000000000093f0 l     O .rodata	0000000000000008              _ZL30CEPH_FEATUREMASK_SERVER_KRAKEN
+00000000000093f8 l     O .rodata	0000000000000008              _ZL19CEPH_FEATURE_MONENC
+0000000000009400 l     O .rodata	0000000000000008              _ZL23CEPH_FEATUREMASK_MONENC
+0000000000009408 l     O .rodata	0000000000000008              _ZL21CEPH_FEATURE_SERVER_O
+0000000000009410 l     O .rodata	0000000000000008              _ZL25CEPH_FEATUREMASK_SERVER_O
+0000000000009418 l     O .rodata	0000000000000008              _ZL20CEPH_FEATURE_QOS_DMC
+0000000000009420 l     O .rodata	0000000000000008              _ZL24CEPH_FEATUREMASK_QOS_DMC
+0000000000009428 l     O .rodata	0000000000000008              _ZL28CEPH_FEATURE_OS_PERF_STAT_NS
+0000000000009430 l     O .rodata	0000000000000008              _ZL32CEPH_FEATUREMASK_OS_PERF_STAT_NS
+0000000000009438 l     O .rodata	0000000000000008              _ZL27CEPH_FEATURE_CRUSH_TUNABLES
+0000000000009440 l     O .rodata	0000000000000008              _ZL31CEPH_FEATUREMASK_CRUSH_TUNABLES
+0000000000009448 l     O .rodata	0000000000000008              _ZL28CEPH_FEATURE_SERVER_LUMINOUS
+0000000000009450 l     O .rodata	0000000000000008              _ZL32CEPH_FEATUREMASK_SERVER_LUMINOUS
+0000000000009458 l     O .rodata	0000000000000008              _ZL28CEPH_FEATURE_RESEND_ON_SPLIT
+0000000000009460 l     O .rodata	0000000000000008              _ZL32CEPH_FEATUREMASK_RESEND_ON_SPLIT
+0000000000009468 l     O .rodata	0000000000000008              _ZL26CEPH_FEATURE_RADOS_BACKOFF
+0000000000009470 l     O .rodata	0000000000000008              _ZL30CEPH_FEATUREMASK_RADOS_BACKOFF
+0000000000009478 l     O .rodata	0000000000000008              _ZL28CEPH_FEATURE_OSDMAP_PG_UPMAP
+0000000000009480 l     O .rodata	0000000000000008              _ZL32CEPH_FEATUREMASK_OSDMAP_PG_UPMAP
+0000000000009488 l     O .rodata	0000000000000008              _ZL30CEPH_FEATURE_CRUSH_CHOOSE_ARGS
+0000000000009490 l     O .rodata	0000000000000008              _ZL34CEPH_FEATUREMASK_CRUSH_CHOOSE_ARGS
+0000000000009498 l     O .rodata	0000000000000008              _ZL21CEPH_FEATURE_MSG_AUTH
+00000000000094a0 l     O .rodata	0000000000000008              _ZL25CEPH_FEATUREMASK_MSG_AUTH
+00000000000094a8 l     O .rodata	0000000000000008              _ZL35CEPH_FEATURE_RECOVERY_RESERVATION_2
+00000000000094b0 l     O .rodata	0000000000000008              _ZL39CEPH_FEATUREMASK_RECOVERY_RESERVATION_2
+00000000000094b8 l     O .rodata	0000000000000008              _ZL28CEPH_FEATURE_CRUSH_TUNABLES2
+00000000000094c0 l     O .rodata	0000000000000008              _ZL32CEPH_FEATUREMASK_CRUSH_TUNABLES2
+00000000000094c8 l     O .rodata	0000000000000008              _ZL25CEPH_FEATURE_CREATEPOOLID
+00000000000094d0 l     O .rodata	0000000000000008              _ZL29CEPH_FEATUREMASK_CREATEPOOLID
+00000000000094d8 l     O .rodata	0000000000000008              _ZL31CEPH_FEATURE_REPLY_CREATE_INODE
+00000000000094e0 l     O .rodata	0000000000000008              _ZL35CEPH_FEATUREMASK_REPLY_CREATE_INODE
+00000000000094e8 l     O .rodata	0000000000000008              _ZL25CEPH_FEATURE_SERVER_MIMIC
+00000000000094f0 l     O .rodata	0000000000000008              _ZL29CEPH_FEATUREMASK_SERVER_MIMIC
+00000000000094f8 l     O .rodata	0000000000000008              _ZL19CEPH_FEATURE_MDSENC
+0000000000009500 l     O .rodata	0000000000000008              _ZL23CEPH_FEATUREMASK_MDSENC
+0000000000009508 l     O .rodata	0000000000000008              _ZL26CEPH_FEATURE_OSDHASHPSPOOL
+0000000000009510 l     O .rodata	0000000000000008              _ZL30CEPH_FEATUREMASK_OSDHASHPSPOOL
+0000000000009518 l     O .rodata	0000000000000008              _ZL29CEPH_FEATURE_MON_SINGLE_PAXOS
+0000000000009520 l     O .rodata	0000000000000008              _ZL33CEPH_FEATUREMASK_MON_SINGLE_PAXOS
+0000000000009528 l     O .rodata	0000000000000008              _ZL26CEPH_FEATURE_OSD_CACHEPOOL
+0000000000009530 l     O .rodata	0000000000000008              _ZL30CEPH_FEATUREMASK_OSD_CACHEPOOL
+0000000000009538 l     O .rodata	0000000000000008              _ZL21CEPH_FEATURE_CRUSH_V2
+0000000000009540 l     O .rodata	0000000000000008              _ZL25CEPH_FEATUREMASK_CRUSH_V2
+0000000000009548 l     O .rodata	0000000000000008              _ZL24CEPH_FEATURE_EXPORT_PEER
+0000000000009550 l     O .rodata	0000000000000008              _ZL28CEPH_FEATUREMASK_EXPORT_PEER
+0000000000009558 l     O .rodata	0000000000000008              _ZL41DEPRECATED_CEPH_FEATURE_OSD_ERASURE_CODES
+0000000000009560 l     O .rodata	0000000000000008              _ZL45DEPRECATED_CEPH_FEATUREMASK_OSD_ERASURE_CODES
+0000000000009568 l     O .rodata	0000000000000008              _ZL23CEPH_FEATURE_OSDMAP_ENC
+0000000000009570 l     O .rodata	0000000000000008              _ZL27CEPH_FEATUREMASK_OSDMAP_ENC
+0000000000009578 l     O .rodata	0000000000000008              _ZL28CEPH_FEATURE_MDS_INLINE_DATA
+0000000000009580 l     O .rodata	0000000000000008              _ZL32CEPH_FEATUREMASK_MDS_INLINE_DATA
+0000000000009588 l     O .rodata	0000000000000008              _ZL28CEPH_FEATURE_CRUSH_TUNABLES3
+0000000000009590 l     O .rodata	0000000000000008              _ZL32CEPH_FEATUREMASK_CRUSH_TUNABLES3
+0000000000009598 l     O .rodata	0000000000000008              _ZL33CEPH_FEATURE_OSD_PRIMARY_AFFINITY
+00000000000095a0 l     O .rodata	0000000000000008              _ZL37CEPH_FEATUREMASK_OSD_PRIMARY_AFFINITY
+00000000000095a8 l     O .rodata	0000000000000008              _ZL28CEPH_FEATURE_MSGR_KEEPALIVE2
+00000000000095b0 l     O .rodata	0000000000000008              _ZL32CEPH_FEATUREMASK_MSGR_KEEPALIVE2
+00000000000095b8 l     O .rodata	0000000000000008              _ZL27CEPH_FEATURE_OSD_POOLRESEND
+00000000000095c0 l     O .rodata	0000000000000008              _ZL31CEPH_FEATUREMASK_OSD_POOLRESEND
+00000000000095c8 l     O .rodata	0000000000000008              _ZL47DEPRECATED_CEPH_FEATURE_ERASURE_CODE_PLUGINS_V2
+00000000000095d0 l     O .rodata	0000000000000008              _ZL51DEPRECATED_CEPH_FEATUREMASK_ERASURE_CODE_PLUGINS_V2
+00000000000095d8 l     O .rodata	0000000000000008              _ZL30CEPH_FEATURE_OSD_FADVISE_FLAGS
+00000000000095e0 l     O .rodata	0000000000000008              _ZL34CEPH_FEATUREMASK_OSD_FADVISE_FLAGS
+00000000000095e8 l     O .rodata	0000000000000008              _ZL22CEPH_FEATURE_MDS_QUOTA
+00000000000095f0 l     O .rodata	0000000000000008              _ZL26CEPH_FEATUREMASK_MDS_QUOTA
+00000000000095f8 l     O .rodata	0000000000000008              _ZL21CEPH_FEATURE_CRUSH_V4
+0000000000009600 l     O .rodata	0000000000000008              _ZL25CEPH_FEATUREMASK_CRUSH_V4
+0000000000009608 l     O .rodata	0000000000000008              _ZL36DEPRECATED_CEPH_FEATURE_MON_METADATA
+0000000000009610 l     O .rodata	0000000000000008              _ZL40DEPRECATED_CEPH_FEATUREMASK_MON_METADATA
+0000000000009618 l     O .rodata	0000000000000008              _ZL45DEPRECATED_CEPH_FEATURE_OSD_BITWISE_HOBJ_SORT
+0000000000009620 l     O .rodata	0000000000000008              _ZL49DEPRECATED_CEPH_FEATUREMASK_OSD_BITWISE_HOBJ_SORT
+0000000000009628 l     O .rodata	0000000000000008              _ZL48DEPRECATED_CEPH_FEATURE_OSD_PROXY_WRITE_FEATURES
+0000000000009630 l     O .rodata	0000000000000008              _ZL52DEPRECATED_CEPH_FEATUREMASK_OSD_PROXY_WRITE_FEATURES
+0000000000009638 l     O .rodata	0000000000000008              _ZL47DEPRECATED_CEPH_FEATURE_ERASURE_CODE_PLUGINS_V3
+0000000000009640 l     O .rodata	0000000000000008              _ZL51DEPRECATED_CEPH_FEATUREMASK_ERASURE_CODE_PLUGINS_V3
+0000000000009648 l     O .rodata	0000000000000008              _ZL38DEPRECATED_CEPH_FEATURE_OSD_HITSET_GMT
+0000000000009650 l     O .rodata	0000000000000008              _ZL42DEPRECATED_CEPH_FEATUREMASK_OSD_HITSET_GMT
+0000000000009658 l     O .rodata	0000000000000008              _ZL37DEPRECATED_CEPH_FEATURE_HAMMER_0_94_4
+0000000000009660 l     O .rodata	0000000000000008              _ZL41DEPRECATED_CEPH_FEATUREMASK_HAMMER_0_94_4
+0000000000009668 l     O .rodata	0000000000000008              _ZL31CEPH_FEATURE_NEW_OSDOP_ENCODING
+0000000000009670 l     O .rodata	0000000000000008              _ZL35CEPH_FEATUREMASK_NEW_OSDOP_ENCODING
+0000000000009678 l     O .rodata	0000000000000008              _ZL29CEPH_FEATURE_MON_STATEFUL_SUB
+0000000000009680 l     O .rodata	0000000000000008              _ZL33CEPH_FEATUREMASK_MON_STATEFUL_SUB
+0000000000009688 l     O .rodata	0000000000000008              _ZL40DEPRECATED_CEPH_FEATURE_MON_ROUTE_OSDMAP
+0000000000009690 l     O .rodata	0000000000000008              _ZL44DEPRECATED_CEPH_FEATUREMASK_MON_ROUTE_OSDMAP
+0000000000009698 l     O .rodata	0000000000000008              _ZL25CEPH_FEATURE_SERVER_JEWEL
+00000000000096a0 l     O .rodata	0000000000000008              _ZL29CEPH_FEATUREMASK_SERVER_JEWEL
+00000000000096a8 l     O .rodata	0000000000000008              _ZL28CEPH_FEATURE_CRUSH_TUNABLES5
+00000000000096b0 l     O .rodata	0000000000000008              _ZL32CEPH_FEATUREMASK_CRUSH_TUNABLES5
+00000000000096b8 l     O .rodata	0000000000000008              _ZL36CEPH_FEATURE_NEW_OSDOPREPLY_ENCODING
+00000000000096c0 l     O .rodata	0000000000000008              _ZL40CEPH_FEATUREMASK_NEW_OSDOPREPLY_ENCODING
+00000000000096c8 l     O .rodata	0000000000000008              _ZL30CEPH_FEATURE_FS_FILE_LAYOUT_V2
+00000000000096d0 l     O .rodata	0000000000000008              _ZL34CEPH_FEATUREMASK_FS_FILE_LAYOUT_V2
+00000000000096d8 l     O .rodata	0000000000000008              _ZL21CEPH_FEATURE_FS_BTIME
+00000000000096e0 l     O .rodata	0000000000000008              _ZL25CEPH_FEATUREMASK_FS_BTIME
+00000000000096e8 l     O .rodata	0000000000000008              _ZL27CEPH_FEATURE_FS_CHANGE_ATTR
+00000000000096f0 l     O .rodata	0000000000000008              _ZL31CEPH_FEATUREMASK_FS_CHANGE_ATTR
+00000000000096f8 l     O .rodata	0000000000000008              _ZL22CEPH_FEATURE_MSG_ADDR2
+0000000000009700 l     O .rodata	0000000000000008              _ZL26CEPH_FEATUREMASK_MSG_ADDR2
+0000000000009708 l     O .rodata	0000000000000008              _ZL33CEPH_FEATURE_OSD_RECOVERY_DELETES
+0000000000009710 l     O .rodata	0000000000000008              _ZL37CEPH_FEATUREMASK_OSD_RECOVERY_DELETES
+0000000000009718 l     O .rodata	0000000000000008              _ZL22CEPH_FEATURE_RESERVED2
+0000000000009720 l     O .rodata	0000000000000008              _ZL26CEPH_FEATUREMASK_RESERVED2
+0000000000009728 l     O .rodata	0000000000000008              _ZL21CEPH_FEATURE_RESERVED
+0000000000009730 l     O .rodata	0000000000000008              _ZL25CEPH_FEATUREMASK_RESERVED
+0000000000009738 l     O .rodata	0000000000000008              _ZL39DEPRECATED_CEPH_FEATURE_RESERVED_BROKEN
+0000000000009740 l     O .rodata	0000000000000008              _ZL43DEPRECATED_CEPH_FEATUREMASK_RESERVED_BROKEN
+0000000000009750 l     O .rodata	0000000000000008              _ZN5boost6detail15aligned_storageL22alignment_of_max_alignE
+0000000000006aba l     F .text	000000000000009b              _ZL9say_helloPvPN4ceph6buffer4listES3_
+0000000000006b55 l     F .text	00000000000002de              _ZL12record_helloPvPN4ceph6buffer4listES3_
+0000000000006e33 l     F .text	000000000000010f              _ZL23writes_dont_return_dataPvPN4ceph6buffer4listES3_
+0000000000006f42 l     F .text	0000000000000046              _ZL6replayPvPN4ceph6buffer4listES3_
+0000000000006f88 l     F .text	00000000000003a5              _ZL13turn_it_to_11PvPN4ceph6buffer4listES3_
+000000000000732d l     F .text	0000000000000033              _ZL10bad_readerPvPN4ceph6buffer4listES3_
+0000000000007360 l     F .text	0000000000000029              _ZL10bad_writerPvPN4ceph6buffer4listES3_
+0000000000007622 l     F .text	00000000000000a8              _Z41__static_initialization_and_destruction_0ii
+00000000000076ca l     F .text	0000000000000015              _GLOBAL__sub_I_cls_hello.cc
+0000000000000000 l    df *ABS*	0000000000000000              crtstuff.c
+000000000000b038 l     O .eh_frame	0000000000000000              __FRAME_END__
+0000000000000000 l    df *ABS*	0000000000000000              
+00000000000098e4 l       .eh_frame_hdr	0000000000000000              __GNU_EH_FRAME_HDR
+000000000020bd58 l     O .data.rel.ro	0000000000000000              __dso_handle
+000000000020c5a8 l     O .data	0000000000000008              DW.ref.__gxx_personality_v0
+000000000020c5a0 l     O .data	0000000000000008              DW.ref._ZTIN4ceph6buffer5errorE
+000000000020bdb8 l     O .dynamic	0000000000000000              _DYNAMIC
+000000000020c5b0 l     O .data	0000000000000000              __TMC_END__
+000000000020c000 l     O .got.plt	0000000000000000              _GLOBAL_OFFSET_TABLE_
+0000000000000000         *UND*	0000000000000000              _Z21ceph_entity_type_namei
+00000000000084ec  w    F .text	0000000000000039              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_disposeEv
+00000000000080ae  w    F .text	0000000000000027              _ZNSt7__cxx1110_List_baseIN4ceph6buffer3ptrESaIS3_EED2Ev
+0000000000008fc0  w    F .text	000000000000000a              _ZSt19__iterator_categoryIPcENSt15iterator_traitsIT_E17iterator_categoryERKS2_
+0000000000007b74  w    F .text	000000000000001e              _ZNK13entity_name_t6is_newEv
+0000000000007aa4  w    F .text	000000000000006a              _ZN4ceph6decodeERNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERNS_6buffer4list8iteratorE
+0000000000008214  w    F .text	0000000000000086              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1Ev
+0000000000007796  w    F .text	000000000000000b              _ZN5boost11optional_ns15in_place_init_tC2ENS1_8init_tagE
+0000000000007812  w    F .text	000000000000008e              _ZN4ceph6buffer4listC1Ev
+000000000000911f  w    F .text	000000000000000e              _ZSt11__addressofIcEPT_RS0_
+0000000000000000       F *UND*	0000000000000000              _ZNSaIcED2Ev@@GLIBCXX_3.4
+000000000000913f  w    F .text	000000000000001c              _ZSt10__distanceIPKcENSt15iterator_traitsIT_E15difference_typeES3_S3_St26random_access_iterator_tag
+0000000000008214  w    F .text	0000000000000086              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC2Ev
+0000000000007d9c  w    F .text	000000000000003d              _ZN15PGLSHelloFilterD2Ev
+00000000000080fe  w    F .text	000000000000001a              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE4dataEv
+000000000000875e  w    F .text	0000000000000040              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_Alloc_hiderC2EPcOS3_
+000000000020c590 g     O .data	0000000000000008              __cls_name
+000000000000915b  w    F .text	000000000000003b              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE13_S_copy_charsEPcPKcS7_
+0000000000007d26  w    F .text	0000000000000075              _ZN15PGLSHelloFilter4initERN4ceph6buffer4list8iteratorE
+0000000000008b54  w    F .text	0000000000000036              _ZNSt7__cxx1110_List_baseIN4ceph6buffer3ptrESaIS3_EE10_List_implC2Ev
+0000000000000000       F *UND*	0000000000000000              _ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEED1Ev@@GLIBCXX_3.4.21
+000000000020c5b0 g       .data	0000000000000000              _edata
+0000000000008d2a  w    F .text	000000000000003e              _ZN9__gnu_cxx13new_allocatorIcE8allocateEmPKv
+00000000000079a0  w    F .text	0000000000000047              _ZN4ceph6buffer4list6appendENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+00000000000085da  w    F .text	000000000000001b              _ZNSaISt10_List_nodeIN4ceph6buffer3ptrEEED1Ev
+0000000000007a1c  w    F .text	000000000000002b              _ZN4ceph6buffer4listD1Ev
+0000000000000000         *UND*	0000000000000000              _ZN4ceph6buffer3ptraSEOS1_
+000000000020bda0  w    O .data.rel.ro	0000000000000018              _ZTI15PGLSHelloFilter
+0000000000000000       F *UND*	0000000000000000              _ZSt17__throw_bad_allocv@@GLIBCXX_3.4
+0000000000000000         *UND*	0000000000000000              _ZTIN4ceph6buffer5errorE
+0000000000008c14  w    F .text	000000000000001a              _ZN9__gnu_cxx16__aligned_membufIN4ceph6buffer3ptrEE6_M_ptrEv
+0000000000000000         *UND*	0000000000000000              _Z23cls_register_cxx_filterPvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPFP10PGLSFiltervEPS_
+0000000000008dd0  w    F .text	0000000000000103              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tag
+0000000000008995  w    F .text	000000000000004c              _ZN9__gnu_cxx14__alloc_traitsISaIcEE17_S_select_on_copyERKS1_
+00000000000077da  w    F .text	000000000000001b              _ZN4ceph6buffer3ptrD1Ev
+000000000000900a  w    F .text	0000000000000103              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPcEEvT_S7_St20forward_iterator_tag
+00000000000085b2  w    F .text	0000000000000027              _ZNSt7__cxx1110_List_baseIN4ceph6buffer3ptrESaIS3_EEC2Ev
+0000000000000000       F *UND*	0000000000000000              __cxa_begin_catch@@CXXABI_1.3
+0000000000007d16  w    F .text	000000000000000f              _ZN10PGLSFilter18reject_empty_xattrEv
+00000000000091f8  w    F .text	0000000000000012              _ZN9__gnu_cxx17__is_null_pointerIcEEbPT_
+0000000000008b8a  w    F .text	000000000000000b              _ZN9__gnu_cxx13new_allocatorISt10_List_nodeIN4ceph6buffer3ptrEEED2Ev
+00000000000085f6  w    F .text	000000000000007a              _ZNSt7__cxx1110_List_baseIN4ceph6buffer3ptrESaIS3_EE8_M_clearEv
+0000000000000000  w    F *UND*	0000000000000000              __cxa_finalize@@GLIBC_2.2.5
+0000000000000000       F *UND*	0000000000000000              strlen@@GLIBC_2.2.5
+0000000000000000       F *UND*	0000000000000000              memcmp@@GLIBC_2.2.5
+00000000000077a2  w    F .text	000000000000000b              _ZN5boost11optional_ns18in_place_init_if_tC1ENS1_8init_tagE
+000000000000879e  w    F .text	00000000000000c9              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERmm
+0000000000008d76  w    F .text	000000000000001a              _ZSt9addressofIcEPT_RS0_
+00000000000091c4  w    F .text	000000000000001a              _ZN9__gnu_cxx16__aligned_membufImE6_M_ptrEv
+00000000000086d4  w    F .text	0000000000000072              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE13_M_set_lengthEm
+00000000000077da  w    F .text	000000000000001b              _ZN4ceph6buffer3ptrD2Ev
+0000000000000000       F *UND*	0000000000000000              _ZSt20__throw_length_errorPKc@@GLIBCXX_3.4
+0000000000000000       F *UND*	0000000000000000              memset@@GLIBC_2.2.5
+0000000000008ed4  w    F .text	000000000000001b              _ZNSaISt10_List_nodeIN4ceph6buffer3ptrEEEC1Ev
+00000000000077ae  w    F .text	000000000000002c              _ZN4ceph6buffer3ptrC1Ev
+0000000000000000       F *UND*	0000000000000000              _ZNSaIcEC1ERKS_@@GLIBCXX_3.4
+0000000000000000         *UND*	0000000000000000              _ZN4ceph6buffer4list8iteratorC1EPS1_j
+00000000000077f6  w    F .text	000000000000001b              _ZNSt7__cxx114listIN4ceph6buffer3ptrESaIS3_EED2Ev
+0000000000007eb2  w    F .text	000000000000003d              _ZN15PGLSHelloFilterC1Ev
+0000000000007c50  w    F .text	000000000000003e              _ZN13entity_addr_tC1Ev
+0000000000008867  w    F .text	000000000000004a              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7_S_copyEPcPKcm
+000000000000778a  w    F .text	000000000000000b              _ZN5boost6none_tC1ENS0_8init_tagE
+0000000000008a52  w    F .text	000000000000001d              _ZN9__gnu_cxx17__normal_iteratorIPcNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEC2ERKS1_
+0000000000000000         *UND*	0000000000000000              _ZN4ceph6buffer4list8iterator4copyEjPc
+00000000000079e8  w    F .text	0000000000000034              _ZN4ceph6buffer4list6appendEPKc
+00000000000077a2  w    F .text	000000000000000b              _ZN5boost11optional_ns18in_place_init_if_tC2ENS1_8init_tagE
+0000000000008be8  w    F .text	000000000000002c              _ZNSt7__cxx1110_List_baseIN4ceph6buffer3ptrESaIS3_EE11_M_set_sizeEm
+0000000000000000       F *UND*	0000000000000000              _ZSt19__throw_logic_errorPKc@@GLIBCXX_3.4
+000000000000817c  w    F .text	0000000000000097              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1EPKcRKS3_
+0000000000009280 g     F .fini	0000000000000000              _fini
+0000000000007f59  w    F .text	0000000000000021              _ZN9__gnu_cxx11char_traitsIcE2eqERKcS3_
+000000000000912d  w    F .text	0000000000000012              _ZN9__gnu_cxx17__is_null_pointerIKcEEbPT_
+00000000000091a2  w    F .text	0000000000000022              _ZN9__gnu_cxx13new_allocatorISt10_List_nodeIN4ceph6buffer3ptrEEE10deallocateEPS5_m
+0000000000008f84  w    F .text	000000000000001a              _ZNSt14pointer_traitsIPKcE10pointer_toERS0_
+0000000000009262  w    F .text	000000000000000e              _ZN9__gnu_cxx16__aligned_membufImE7_M_addrEv
+000000000000829a  w    F .text	00000000000000e5              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1ERKS4_
+0000000000000000         *UND*	0000000000000000              _ZN10PGLSFilterD2Ev
+0000000000008b95  w    F .text	0000000000000026              _ZNSt16allocator_traitsISaISt10_List_nodeIN4ceph6buffer3ptrEEEE7destroyIS3_EEvRS5_PT_
+0000000000000000         *UND*	0000000000000000              _ZN4ceph6buffer4list6appendEPKcj
+0000000000008ef0  w    F .text	000000000000001f              _ZN9__gnu_cxx13new_allocatorISt10_List_nodeIN4ceph6buffer3ptrEEE7destroyIS4_EEvPT_
+000000000000829a  w    F .text	00000000000000e5              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC2ERKS4_
+000000000000857a  w    F .text	0000000000000038              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_
+0000000000008c2e  w    F .text	0000000000000029              _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE8max_sizeEv
+000000000000920a  w    F .text	000000000000001c              _ZSt10__distanceIPcENSt15iterator_traitsIT_E15difference_typeES2_S2_St26random_access_iterator_tag
+00000000000084c8  w    F .text	0000000000000012              _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE4sizeEv
+0000000000000000       F *UND*	0000000000000000              memcpy@@GLIBC_2.14
+0000000000000000         *UND*	0000000000000000              _Z16cls_cxx_setxattrPvPKcPN4ceph6buffer4listE
+0000000000007419 g     F .text	0000000000000209              __cls_init
+0000000000008ed4  w    F .text	000000000000001b              _ZNSaISt10_List_nodeIN4ceph6buffer3ptrEEEC2Ev
+00000000000078b2  w    F .text	00000000000000c0              _ZN4ceph6buffer4list5clearEv
+0000000000000000       F *UND*	0000000000000000              _ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEC1ESt13_Ios_Openmode@@GLIBCXX_3.4.21
+000000000000910e  w    F .text	0000000000000011              _ZNK9__gnu_cxx13new_allocatorIcE8max_sizeEv
+00000000000085da  w    F .text	000000000000001b              _ZNSaISt10_List_nodeIN4ceph6buffer3ptrEEED2Ev
+00000000000098d0  w    O .rodata	0000000000000012              _ZTS15PGLSHelloFilter
+00000000000085b2  w    F .text	0000000000000027              _ZNSt7__cxx1110_List_baseIN4ceph6buffer3ptrESaIS3_EEC1Ev
+0000000000008add  w    F .text	000000000000001a              _ZNSt14pointer_traitsIPcE10pointer_toERc
+00000000000088cc  w    F .text	000000000000001b              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE11_M_capacityEm
+0000000000000000       F *UND*	0000000000000000              __cxa_atexit@@GLIBC_2.2.5
+0000000000008fca  w    F .text	000000000000003f              _ZSt8distanceIPcENSt15iterator_traitsIT_E15difference_typeES2_S2_
+0000000000007b2c  w    F .text	0000000000000012              _ZNK13entity_name_t3numEv
+0000000000007b0e  w    F .text	000000000000001e              _ZN13entity_name_tC2Ev
+0000000000007f94  w    F .text	000000000000001b              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_Alloc_hiderD1Ev
+0000000000008526  w    F .text	000000000000001e              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE13_M_local_dataEv
+000000000000817c  w    F .text	0000000000000097              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC2EPKcRKS3_
+0000000000000000       F *UND*	0000000000000000              _ZdlPv@@GLIBCXX_3.4
+0000000000007eb2  w    F .text	000000000000003d              _ZN15PGLSHelloFilterC2Ev
+0000000000008aac  w    F .text	0000000000000020              _ZN9__gnu_cxx17__normal_iteratorIPcNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEppEv
+0000000000000000         *UND*	0000000000000000              _ZN10PGLSFilterC2Ev
+0000000000000000       F *UND*	0000000000000000              _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@@GLIBCXX_3.4
+0000000000000000       F *UND*	0000000000000000              _Znwm@@GLIBCXX_3.4
+0000000000008544  w    F .text	0000000000000035              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_Alloc_hiderC2EPcRKS3_
+0000000000008f3e  w    F .text	000000000000001e              _ZNSt10_List_nodeImE9_M_valptrEv
+0000000000000000       F *UND*	0000000000000000              _ZdlPvm@@CXXABI_1.3.9
+0000000000000000       F *UND*	0000000000000000              _ZNKSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEE3strEv@@GLIBCXX_3.4.21
+0000000000008acc  w    F .text	0000000000000011              _ZNK9__gnu_cxx17__normal_iteratorIPcNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEdeEv
+0000000000008118  w    F .text	0000000000000028              _ZN4ceph10decode_rawI7ceph_leIjEEEvRT_RNS_6buffer4list8iteratorE
+0000000000007f94  w    F .text	000000000000001b              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_Alloc_hiderD2Ev
+000000000000896c  w    F .text	000000000000000e              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE16_M_get_allocatorEv
+0000000000008f6a  w    F .text	000000000000001a              _ZNSt16allocator_traitsISaIcEE8max_sizeERKS0_
+0000000000007ef0  w    F .text	0000000000000069              _ZN9__gnu_cxx11char_traitsIcE6lengthEPKc
+0000000000008092  w    F .text	000000000000001b              _ZNSt7__cxx1110_List_baseIN4ceph6buffer3ptrESaIS3_EE10_List_implD1Ev
+00000000000076df  w    F .text	000000000000001c              _ZNSt11char_traitsIcE6assignERcRKc
+0000000000000000       F *UND*	0000000000000000              _ZNSaIcED1Ev@@GLIBCXX_3.4
+0000000000007fb0  w    F .text	0000000000000027              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED2Ev
+0000000000000000       F *UND*	0000000000000000              __stack_chk_fail@@GLIBC_2.4
+0000000000005ec8 g     F .init	0000000000000000              _init
+0000000000009226  w    F .text	000000000000003b              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE13_S_copy_charsEPcS5_S5_
+0000000000000000       F *UND*	0000000000000000              _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_c@@GLIBCXX_3.4
+00000000000088e8  w    F .text	0000000000000035              _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE11_M_is_localEv
+0000000000008076  w    F .text	000000000000001b              _ZNSt7__cxx114listIN4ceph6buffer3ptrESaIS3_EEC2Ev
+0000000000007fd8  w    F .text	0000000000000012              _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6lengthEv
+0000000000008c76  w    F .text	000000000000002e              _ZNSt16allocator_traitsISaIcEE10deallocateERS0_Pcm
+0000000000007fea  w    F .text	000000000000007f              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1EPKcmRKS3_
+000000000020bd60  w    O .data.rel.ro	0000000000000040              _ZTV15PGLSHelloFilter
+0000000000008448  w    F .text	000000000000007f              _ZSt9transformIN9__gnu_cxx17__normal_iteratorIPcNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEES9_PDoFiiEET0_T_SD_SC_T1_
+0000000000007c8e  w    F .text	000000000000002b              _ZN13entity_inst_tC1Ev
+0000000000000000         *UND*	0000000000000000              _ZTI10PGLSFilter
+0000000000007796  w    F .text	000000000000000b              _ZN5boost11optional_ns15in_place_init_tC1ENS1_8init_tagE
+0000000000007812  w    F .text	000000000000008e              _ZN4ceph6buffer4listC2Ev
+0000000000000000         *UND*	0000000000000000              _Z23cls_register_cxx_methodPvPKciPFiS_PN4ceph6buffer4listES5_EPS_
+0000000000000000         *UND*	0000000000000000              cls_get_request_origin
+0000000000000000       O *UND*	0000000000000000              _ZTVN10__cxxabiv120__si_class_type_infoE@@CXXABI_1.3
+0000000000000000         *UND*	0000000000000000              _ZN4ceph6buffer4list8iterator4copyEjRNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+00000000000089f0  w    F .text	0000000000000038              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPcEEvT_S7_
+0000000000008a28  w    F .text	000000000000002a              _ZNSt16allocator_traitsISaIcEE8allocateERS0_m
+0000000000007e06  w    F .text	00000000000000ab              _ZN15PGLSHelloFilter6filterERK9hobject_tRN4ceph6buffer4listES6_
+0000000000000000         *UND*	0000000000000000              _Z18cls_cxx_write_fullPvPN4ceph6buffer4listE
+0000000000000000         *UND*	0000000000000000              _ZN4ceph6buffer4list5c_strEv
+0000000000008d68  w    F .text	000000000000000e              _ZNK9__gnu_cxx17__normal_iteratorIPcNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE4baseEv
+0000000000008b8a  w    F .text	000000000000000b              _ZN9__gnu_cxx13new_allocatorISt10_List_nodeIN4ceph6buffer3ptrEEED1Ev
+00000000000077ae  w    F .text	000000000000002c              _ZN4ceph6buffer3ptrC2Ev
+00000000000091de  w    F .text	000000000000001a              _ZSt9addressofIKcEPT_RS1_
+0000000000000000         *UND*	0000000000000000              _Z12cls_cxx_statPvPmPl
+000000000020c598 u     O .data	0000000000000008              _ZN5boost9container30std_piecewise_construct_holderILi0EE5dummyE
+000000000020c5d0 g       .bss	0000000000000000              _end
+0000000000008cce  w    F .text	000000000000005b              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE16_M_construct_auxIPcEEvT_S7_St12__false_type
+0000000000008750  w    F .text	000000000000000e              _ZSt4moveIRSaIcEEONSt16remove_referenceIT_E4typeEOS3_
+000000000020c5b8 g     O .bss	0000000000000004              __cls_ver__1_0
+0000000000008746  w    F .text	000000000000000a              _ZSt19__iterator_categoryIPKcENSt15iterator_traitsIT_E17iterator_categoryERKS3_
+0000000000000000       F *UND*	0000000000000000              _ZNSaIcEC2ERKS_@@GLIBCXX_3.4
+0000000000000000         *UND*	0000000000000000              _ZlsRSoRK13entity_addr_t
+00000000000084da  w    F .text	0000000000000011              _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7_M_dataEv
+0000000000000000         *UND*	0000000000000000              cls_log
+000000000000891e  w    F .text	000000000000004e              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_destroyEm
+000000000020c588 g     O .data	0000000000000004              __cls_ver_maj
+0000000000007b92  w    F .text	00000000000000bd              _ZlsRSoRK13entity_name_t
+0000000000007b0e  w    F .text	000000000000001e              _ZN13entity_name_tC1Ev
+0000000000007fb0  w    F .text	0000000000000027              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev
+000000000020c5b0 g       .bss	0000000000000000              __bss_start
+00000000000086b6  w    F .text	000000000000001e              _ZNSt10_List_nodeIN4ceph6buffer3ptrEE9_M_valptrEv
+0000000000000000       F *UND*	0000000000000000              _ZNSt8ios_base4InitC1Ev@@GLIBCXX_3.4
+000000000000867e  w    F .text	0000000000000037              _ZNSt7__cxx1110_List_baseIN4ceph6buffer3ptrESaIS3_EE7_M_initEv
+0000000000008f9e  w    F .text	0000000000000022              _ZN9__gnu_cxx13new_allocatorIcE10deallocateEPcm
+0000000000008076  w    F .text	000000000000001b              _ZNSt7__cxx114listIN4ceph6buffer3ptrESaIS3_EEC1Ev
+0000000000008a6f  w    F .text	000000000000003c              _ZN9__gnu_cxxneIPcNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEEbRKNS_17__normal_iteratorIT_T0_EESD_
+0000000000007dda  w    F .text	000000000000002b              _ZN15PGLSHelloFilterD0Ev
+0000000000008d90  w    F .text	000000000000003f              _ZSt8distanceIPKcENSt15iterator_traitsIT_E15difference_typeES3_S3_
+0000000000008a52  w    F .text	000000000000001d              _ZN9__gnu_cxx17__normal_iteratorIPcNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEC1ERKS1_
+0000000000007b52  w    F .text	0000000000000021              _ZNK13entity_name_t8type_strEv
+0000000000007fea  w    F .text	000000000000007f              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC2EPKcmRKS3_
+0000000000008069  w    F .text	000000000000000c              _Z5mswabIjET_S0_
+0000000000008380  w    F .text	0000000000000058              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE5beginEv
+0000000000008b54  w    F .text	0000000000000036              _ZNSt7__cxx1110_List_baseIN4ceph6buffer3ptrESaIS3_EE10_List_implC1Ev
+0000000000008f0f  w    F .text	000000000000002e              _ZNSt16allocator_traitsISaISt10_List_nodeIN4ceph6buffer3ptrEEEE10deallocateERS5_PS4_m
+000000000000897a  w    F .text	000000000000001b              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_lengthEm
+0000000000008140  w    F .text	000000000000001b              _ZNK7ceph_leIjEcvjEv
+0000000000000000       F *UND*	0000000000000000              __cxa_end_catch@@CXXABI_1.3
+0000000000009270  w    F .text	000000000000000e              _ZSt11__addressofIKcEPT_RS1_
+0000000000007389 g     F .text	0000000000000090              _Z12hello_filterv
+0000000000000000       F *UND*	0000000000000000              __gxx_personality_v0@@CXXABI_1.3
+0000000000007c50  w    F .text	000000000000003e              _ZN13entity_addr_tC2Ev
+0000000000007a47  w    F .text	000000000000005d              _ZN4ceph6decodeERjRNS_6buffer4list8iteratorE
+0000000000007b3e  w    F .text	0000000000000014              _ZNK13entity_name_t4typeEv
+000000000000778a  w    F .text	000000000000000b              _ZN5boost6none_tC2ENS0_8init_tagE
+0000000000008af8  w    F .text	000000000000005b              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE16_M_construct_auxIPKcEEvT_S8_St12__false_type
+0000000000008092  w    F .text	000000000000001b              _ZNSt7__cxx1110_List_baseIN4ceph6buffer3ptrESaIS3_EE10_List_implD2Ev
+0000000000008c58  w    F .text	000000000000001e              _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE13_M_local_dataEv
+00000000000083d8  w    F .text	0000000000000070              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE3endEv
+0000000000000000         *UND*	0000000000000000              _ZN4ceph6buffer4list6appendERKS1_
+0000000000009196  w    F .text	000000000000000b              _ZN9__gnu_cxx13new_allocatorISt10_List_nodeIN4ceph6buffer3ptrEEEC2Ev
+00000000000078a0  w    F .text	0000000000000011              _ZNK4ceph6buffer4list6lengthEv
+0000000000008bbc  w    F .text	000000000000002b              _ZNSt7__cxx1110_List_baseIN4ceph6buffer3ptrESaIS3_EE11_M_put_nodeEPSt10_List_nodeIS3_E
+0000000000000000  w      *UND*	0000000000000000              _ITM_deregisterTMCloneTable
+00000000000080d6  w    F .text	0000000000000027              _ZNSt7__cxx114listIN4ceph6buffer3ptrESaIS3_EE5clearEv
+00000000000080ae  w    F .text	0000000000000027              _ZNSt7__cxx1110_List_baseIN4ceph6buffer3ptrESaIS3_EED1Ev
+0000000000000000       F *UND*	0000000000000000              _Unwind_Resume@@GCC_3.0
+0000000000000000       F *UND*	0000000000000000              _ZNSaIcEC1Ev@@GLIBCXX_3.4
+0000000000008f5c  w    F .text	000000000000000e              _ZN9__gnu_cxx16__aligned_membufIN4ceph6buffer3ptrEE7_M_addrEv
+00000000000089e2  w    F .text	000000000000000e              _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE16_M_get_allocatorEv
+0000000000007972  w    F .text	000000000000002e              _ZN4ceph6buffer4list5beginEv
+000000000020c5bc g     O .bss	0000000000000004              __cls_ver_min
+0000000000008670  w    F .text	000000000000000e              _ZNSt7__cxx1110_List_baseIN4ceph6buffer3ptrESaIS3_EE21_M_get_Node_allocatorEv
+0000000000000000       F *UND*	0000000000000000              _ZNSolsEl@@GLIBCXX_3.4
+0000000000007a1c  w    F .text	000000000000002b              _ZN4ceph6buffer4listD2Ev
+000000000000875e  w    F .text	0000000000000040              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_Alloc_hiderC1EPcOS3_
+0000000000000000       F *UND*	0000000000000000              toupper@@GLIBC_2.2.5
+0000000000009196  w    F .text	000000000000000b              _ZN9__gnu_cxx13new_allocatorISt10_List_nodeIN4ceph6buffer3ptrEEEC1Ev
+00000000000077f6  w    F .text	000000000000001b              _ZNSt7__cxx114listIN4ceph6buffer3ptrESaIS3_EED1Ev
+0000000000007d04  w    F .text	0000000000000012              _ZN10PGLSFilter9get_xattrB5cxx11Ev
+0000000000008544  w    F .text	0000000000000035              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_Alloc_hiderC1EPcRKS3_
+00000000000076fb  w    F .text	000000000000004f              _ZNSt11char_traitsIcE6lengthEPKc
+0000000000000000         *UND*	0000000000000000              _Z12cls_cxx_readPviiPN4ceph6buffer4listE
+000000000000815c  w    F .text	0000000000000020              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE5clearEv
+0000000000000000  w      *UND*	0000000000000000              __gmon_start__
+0000000000000000  w      *UND*	0000000000000000              _ITM_registerTMCloneTable
+0000000000007cb9  w    F .text	000000000000004a              _ZlsRSoRK13entity_inst_t
+0000000000007d9c  w    F .text	000000000000003d              _ZN15PGLSHelloFilterD1Ev
+0000000000008ca4  w    F .text	0000000000000029              _ZNSt16allocator_traitsISaIcEE37select_on_container_copy_constructionERKS0_
+0000000000000000         *UND*	0000000000000000              _ZN4ceph6buffer3ptr7releaseEv
+0000000000007f7a  w    F .text	000000000000001a              _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE5c_strEv
+000000000000774a  w    F .text	0000000000000040              _ZNSt11char_traitsIcE4copyEPcPKcm
+000000000020c5c0 g     O .bss	0000000000000004              __cls_name__hello
+0000000000000000         *UND*	0000000000000000              cls_register
+00000000000088b2  w    F .text	000000000000001a              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7_M_dataEPc
+0000000000000000       F *UND*	0000000000000000              _ZNSt8ios_base4InitD1Ev@@GLIBCXX_3.4
+0000000000007c8e  w    F .text	000000000000002b              _ZN13entity_inst_tC2Ev
+
+
