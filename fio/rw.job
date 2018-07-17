@@ -1,0 +1,12 @@
+[read-nvme]
+rw=read
+bs=256K
+direct=0
+#ioengine=libaio
+iodepth=16
+#filename=/dev/nvme0n1
+filename=/run/media/cranechu/test/test.file
+filesize=10G
+numjobs=4
+time_based=1
+runtime=900
