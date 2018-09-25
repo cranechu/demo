@@ -1,0 +1,16 @@
+[global]
+ioengine=libaio
+invalidate=1
+iodepth=16
+time_based
+direct=1
+filename=/dev/nvme0n1
+
+[write-nvme]
+stonewall
+bs=128K
+rw=write
+numjobs=1
+runtime=1000
+
+
