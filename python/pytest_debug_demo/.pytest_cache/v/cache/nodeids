@@ -3,5 +3,6 @@
   "test_scripts.py::test_ioworker_iops_multiple_queue[2]",
   "test_scripts.py::test_ioworker_iops_multiple_queue[4]",
   "test_scripts.py::test_ioworker_iops_multiple_queue[8]",
-  "test_scripts.py::test_ioworker_iops_multiple_queue[15]"
+  "test_scripts.py::test_ioworker_iops_multiple_queue[15]",
+  "test_scripts.py::test_ioworker_iops_single"
 ]
